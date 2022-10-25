@@ -1,0 +1,83 @@
+@use './bootstrap';
+
+//COLORES
+$color1: #621031;
+$color2: #9F2241;
+$color3: #D6C19C;
+$color4: #DDDDDD;
+$color5: #9A9A9A;
+$color6: #1A1A1A;
+$color7: #F6F6F6;
+$colorWhite: #ffffff;
+
+//COLORES-DEGRADADO
+$Dcolor1:#21409A;
+$Dcolor2:#D958A0;
+$Dcolor3:#E95A5C;
+$Dcolor4:#F7943E;
+$Dcolor5:#FFDA0D;
+
+@mixin padbot {
+    padding-bottom: 50px;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: $color7;
+}
+
+h2{
+    color: $color1;
+    font-weight: bold;
+}
+
+header{
+    color: $color1;
+    a{
+        text-decoration: none;
+        color: $color1;
+        &:hover{
+            color: $color1;
+            background-color: $color4;
+        }
+    }
+    @include padbot();
+}
+
+.pad{
+    @include padbot();
+}
+
+footer{
+    background-image: url(src/SVG´s/FondoFooter.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h6{
+        color: $colorWhite;
+    }
+    ul{
+        padding-bottom: 10px;
+        li{
+            list-style: none;
+            padding-bottom: 10px;
+            color: $color7;
+            a{
+                text-decoration: none;
+                color: $color7;
+                &:hover{
+                    color: $color7;
+                }
+            }
+        }
+    }
+    
+}
+
+.notice-bottom{
+    background-color: $Dcolor4;
+    width: fit-content;
+    padding: 5px 30px 1px 30px;
+    color: $colorWhite;
+    text-align: center;
+}
