@@ -26,16 +26,30 @@ body{
     background-color: $color7;
 }
 
-h2{
-    color: $color1;
-    font-weight: bold;
-}
 
+
+//HEADER<<<<<<<<<<<<
 header{
     color: $color1;
+    ul{
+        list-style: none;
+        display: flex;
+        li{
+            margin: auto;
+            a{
+                text-decoration: none;
+                color: $color1;
+                &:hover{
+                    color: $color1;
+                    background-color: $color4;
+                }
+            }
+        }
+    }
     a{
         text-decoration: none;
         color: $color1;
+        margin: auto;
         &:hover{
             color: $color1;
             background-color: $color4;
@@ -43,11 +57,11 @@ header{
     }
     @include padbot();
 }
+//HEADER FIN<<<<<<<<<<<<
 
-.pad{
-    @include padbot();
-}
 
+
+//FOOTER<<<<<<<<<<<<
 footer{
     background-image: url(src/SVG´s/FondoFooter.svg);
     background-repeat: no-repeat;
@@ -73,11 +87,39 @@ footer{
     }
     
 }
+//FOOTER FIN<<<<<<<<<<<<
+
+
+
+//GLOBAL<<<<<<<<<<<<
+.pad{
+    @include padbot();
+}
+
+h2{
+    color: $color1;
+    font-weight: bold;
+}
+
+h4{
+    color: $color2;
+}
+h6{
+    color: $color2;
+}
+.noticias{
+    p{
+        color: $color2;
+    }
+}
 
 .notice-bottom{
     background-color: $Dcolor4;
     width: fit-content;
     padding: 5px 30px 1px 30px;
-    color: $colorWhite;
     text-align: center;
+    h6{
+        color: $colorWhite;
+    }
 }
+//GLOBAL FIN<<<<<<<<<<<<
