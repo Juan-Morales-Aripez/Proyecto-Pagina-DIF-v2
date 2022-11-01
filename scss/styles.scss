@@ -133,4 +133,66 @@ h7{
     }
 }
 
+.BGCg{
+    background-color: $color4;
+}
+
+.directorio{
+    
+    .BGCw{
+        background-color: $colorWhite;
+    }
+    h7{
+        color: $Dcolor3;
+    }
+    a{
+        text-decoration: none;
+        color: $Dcolor3;
+    }
+}
+
+
+.enlace1{
+    background-color: $Dcolor3;
+    color: $colorWhite;
+}
+.enlace2{
+    background-color: $Dcolor1;
+    color: $colorWhite;
+}
+.enlace3{
+    background-color: $Dcolor4;
+    color: $colorWhite;
+}
+.enlace4{
+    background-color: $Dcolor2;
+    color: $colorWhite;
+}
+.enlace5{
+    background-color: $Dcolor5;
+    color: $colorWhite;
+}
+
+.lista_info{
+    a{
+        color: $Dcolor4;
+    }
+}
+
+.articulos{
+    text-align: center;
+    background-color: $colorWhite;
+    img{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    h5{
+        color: $Dcolor4;
+        padding-bottom: 20px;
+    }
+    p{
+        padding-bottom: 20px;
+    }
+}
+
 //GLOBAL FIN<<<<<<<<<<<<
