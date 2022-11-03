@@ -8,6 +8,8 @@ $color4: #DDDDDD;
 $color5: #9A9A9A;
 $color6: #1A1A1A;
 $color7: #F6F6F6;
+$color8: #7F9097;
+$color9: #BBB5B5;
 $colorWhite: #ffffff;
 
 //COLORES-DEGRADADO
@@ -195,4 +197,54 @@ h7{
     }
 }
 
+.BGCw{
+    background-color: $colorWhite;
+}
+
+.fracc{
+    p{
+        color: $color2;
+    }
+    div{
+        &:hover{
+            background-color: $Dcolor4;
+            p{
+                color: $colorWhite;
+            }
+        }
+    }
+
+}
+.fracc_sel{
+    .num{
+        text-align: center;
+        background-color: $Dcolor4;
+        h4{
+            color: $colorWhite;
+        }
+    }
+    
+    h5{
+        color: $color2;
+    }
+    h6{
+        color: $color6;
+        font-weight: bold;
+    }
+}
+
+.noticias{
+    p{
+        color: $color8;
+    }
+    p1{
+        color: $color9;
+    }
+    h5{
+        color: $color6;
+    }
+    h6{
+        color: $Dcolor3;
+    }
+}
 //GLOBAL FIN<<<<<<<<<<<<
