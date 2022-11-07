@@ -10940,57 +10940,79 @@ body {
   background-color: #F6F6F6;
 }
 
-header {
+.header {
   color: #621031;
   padding-bottom: 50px;
 }
-header ul {
+.header ul {
   list-style: none;
   display: flex;
 }
-header ul li {
+.header ul li {
   margin: auto;
 }
-header ul li a {
+.header ul li a {
   text-decoration: none;
   color: #621031;
 }
-header ul li a:hover {
+.header ul li a:hover {
   color: #621031;
   background-color: #DDDDDD;
 }
-header a {
+.header a {
   text-decoration: none;
   color: #621031;
   margin: auto;
 }
-header a:hover {
+.header a:hover {
   color: #621031;
   background-color: #DDDDDD;
 }
 
-footer {
+.footer {
   background-image: url(src/SVG´s/FondoFooter.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
-footer h6 {
+.footer h6 {
   color: #ffffff;
 }
-footer ul {
+.footer ul {
   padding-bottom: 10px;
 }
-footer ul li {
+.footer ul li {
   list-style: none;
   padding-bottom: 10px;
   color: #F6F6F6;
 }
-footer ul li a {
+.footer ul li a {
   text-decoration: none;
   color: #F6F6F6;
 }
-footer ul li a:hover {
+.footer ul li a:hover {
   color: #F6F6F6;
+}
+
+.header-noticias {
+  background-color: #E95A5C;
+  display: flex;
+}
+.header-noticias ul {
+  align-self: center;
+  list-style: none;
+  display: flex;
+}
+.header-noticias ul li {
+  margin: 0 10px;
+}
+.header-noticias ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  margin: auto;
+}
+
+.footer-noticias {
+  background-color: #1A1A1A;
 }
 
 .pad {
