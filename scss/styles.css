@@ -10973,17 +10973,19 @@ body {
   background-image: url(src/SVG´s/FondoFooter.svg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 40px;
 }
 .footer h6 {
   color: #ffffff;
 }
 .footer ul {
+  list-style: none;
   padding-bottom: 10px;
 }
 .footer ul li {
-  list-style: none;
   padding-bottom: 10px;
   color: #F6F6F6;
+  margin: auto;
 }
 .footer ul li a {
   text-decoration: none;
@@ -11013,6 +11015,11 @@ body {
 
 .footer-noticias {
   background-color: #1A1A1A;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+.footer-noticias h6 {
+  color: #ffffff;
 }
 
 .pad {
