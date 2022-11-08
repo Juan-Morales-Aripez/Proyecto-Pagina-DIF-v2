@@ -207,6 +207,10 @@ h7{
     a{
         color: $Dcolor4;
     }
+    ul{
+        list-style: none;
+        display: flex;
+    }
 }
 
 .articulos{

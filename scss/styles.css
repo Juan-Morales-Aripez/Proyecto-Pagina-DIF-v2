@@ -11106,6 +11106,10 @@ h7 {
 .lista_info a {
   color: #F7943E;
 }
+.lista_info ul {
+  list-style: none;
+  display: flex;
+}
 
 .articulos {
   text-align: center;
