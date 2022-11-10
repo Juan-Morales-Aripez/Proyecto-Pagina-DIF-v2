@@ -10985,6 +10985,13 @@ body {
 .footer ul li a:hover {
   color: #F6F6F6;
 }
+.footer hr {
+  border-color: #1A1A1A;
+  border-width: 5px;
+}
+.footer .BGCw {
+  background-color: #ffffff;
+}
 
 .header-noticias {
   background-color: #E95A5C;
@@ -11104,7 +11111,6 @@ h7 {
 
 .articulos {
   text-align: center;
-  background-color: #ffffff;
 }
 .articulos img {
   padding-top: 20px;

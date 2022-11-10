@@ -48,15 +48,6 @@ body{
             }
         }
     }
-    // a{
-    //     text-decoration: none;
-    //     color: $color1;
-    //     margin: auto;
-    //     &:hover{
-    //         color: $color1;
-    //         background-color: $color4;
-    //     }
-    // }
     @include padbot();
 }
 //HEADER FIN<<<<<<<<<<<<
@@ -86,7 +77,13 @@ body{
             }
         }
     }
-    
+    hr{
+        border-color: $color6;
+        border-width: 5px;
+    }
+    .BGCw{
+        background-color: $colorWhite;
+    }
 }
 //FOOTER FIN<<<<<<<<<<<<
 
@@ -215,7 +212,6 @@ h7{
 
 .articulos{
     text-align: center;
-    background-color: $colorWhite;
     img{
         padding-top: 20px;
         padding-bottom: 20px;
