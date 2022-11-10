@@ -10959,15 +10959,6 @@ body {
   color: #621031;
   background-color: #DDDDDD;
 }
-.header a {
-  text-decoration: none;
-  color: #621031;
-  margin: auto;
-}
-.header a:hover {
-  color: #621031;
-  background-color: #DDDDDD;
-}
 
 .footer {
   background-image: url(src/SVG´s/FondoFooter.svg);

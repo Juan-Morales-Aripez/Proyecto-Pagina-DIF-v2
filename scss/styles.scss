@@ -48,15 +48,15 @@ body{
             }
         }
     }
-    a{
-        text-decoration: none;
-        color: $color1;
-        margin: auto;
-        &:hover{
-            color: $color1;
-            background-color: $color4;
-        }
-    }
+    // a{
+    //     text-decoration: none;
+    //     color: $color1;
+    //     margin: auto;
+    //     &:hover{
+    //         color: $color1;
+    //         background-color: $color4;
+    //     }
+    // }
     @include padbot();
 }
 //HEADER FIN<<<<<<<<<<<<
