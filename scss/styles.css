@@ -11075,6 +11075,9 @@ h7 {
 }
 .directorio a {
   text-decoration: none;
+  text-align: center;
+}
+.directorio a p {
   color: #E95A5C;
 }
 
@@ -11132,6 +11135,7 @@ h7 {
 
 .fracc p {
   color: #9F2241;
+  margin: 0 100px 0 20px;
 }
 .fracc div:hover {
   background-color: #F7943E;
