@@ -10938,6 +10938,8 @@ textarea.form-control-lg {
 body {
   font-family: "Raleway", sans-serif;
   background-color: #F6F6F6;
+  padding: 0;
+  margin: 0;
 }
 
 .header {
@@ -10963,7 +10965,7 @@ body {
 .footer {
   background-image: url(src/SVG´s/FondoFooter.svg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100%;
   padding-top: 40px;
 }
 .footer h6 {
@@ -11164,4 +11166,14 @@ h7 {
 }
 .noticias h6 {
   color: #E95A5C;
+}
+
+.text p {
+  margin: auto 40px;
+}
+.text button {
+  margin: auto 40px;
+}
+.text h5 {
+  margin: auto 40px;
 }/*# sourceMappingURL=styles.css.map */

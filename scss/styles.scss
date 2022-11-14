@@ -23,9 +23,12 @@ $Dcolor5:#FFDA0D;
     padding-bottom: 50px;
 }
 
+
 body{
     font-family: 'Raleway', sans-serif;
     background-color: $color7;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -56,7 +59,7 @@ body{
 .footer{
     background-image: url(src/SVG´s/FondoFooter.svg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     padding-top: 40px;
     h6{
         color: $colorWhite;
@@ -274,5 +277,18 @@ h7{
     h6{
         color: $Dcolor3;
     }
+}
+
+.text{
+    p{
+        margin: auto 40px;
+    }
+    button{
+        margin: auto 40px;
+    }
+    h5{
+        margin: auto 40px;
+    }
+
 }
 //GLOBAL FIN<<<<<<<<<<<<
