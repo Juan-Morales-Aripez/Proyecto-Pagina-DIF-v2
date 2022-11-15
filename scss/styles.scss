@@ -127,11 +127,13 @@ body{
 //FOOTER-NOTICIAS FIN<<<<<<<<<<<<
 
 //GLOBAL<<<<<<<<<<<<
-.padD{
-    @include padbot();
-}
+
 .padU{
     @include padtop();
+}
+
+.padD{
+    @include padbot();
 }
 
 h2{
