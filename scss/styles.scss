@@ -19,9 +19,14 @@ $Dcolor3:#E95A5C;
 $Dcolor4:#F7943E;
 $Dcolor5:#FFDA0D;
 
+@mixin padtop {
+    padding-top: 50px;
+}
+
 @mixin padbot {
     padding-bottom: 50px;
 }
+
 
 
 body{
@@ -122,8 +127,11 @@ body{
 //FOOTER-NOTICIAS FIN<<<<<<<<<<<<
 
 //GLOBAL<<<<<<<<<<<<
-.pad{
+.padD{
     @include padbot();
+}
+.padU{
+    @include padtop();
 }
 
 h2{
