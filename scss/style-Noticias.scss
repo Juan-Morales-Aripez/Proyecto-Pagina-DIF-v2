@@ -1,0 +1,107 @@
+@use './bootstrap';
+
+//COLORES
+$color1: #621031;
+$color2: #9F2241;
+$color3: #D6C19C;
+$color4: #DDDDDD;
+$color5: #9A9A9A;
+$color6: #1A1A1A;
+$color7: #F6F6F6;
+$color8: #7F9097;
+$color9: #BBB5B5;
+$colorWhite: #ffffff;
+
+//COLORES-DEGRADADO
+$Dcolor1:#21409A;
+$Dcolor2:#D958A0;
+$Dcolor3:#E95A5C;
+$Dcolor4:#F7943E;
+$Dcolor5:#FFDA0D;
+
+@mixin padtop {
+    padding-top: 50px;
+}
+
+@mixin padbot {
+    padding-bottom: 50px;
+}
+
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: $color7;
+    padding: 0;
+    margin: 0;
+}
+
+//HEADER-NOTICIAS<<<<<<<<<<<<
+.header-noticias{
+    background-color: $Dcolor3;
+    display: flex;
+    ul{
+        align-self: center;
+        list-style: none;
+        display: flex;
+        li{
+            margin: 0 10px;
+            a{
+                text-decoration: none;
+                color: $colorWhite;
+                margin: auto;
+            }
+        }
+    }
+}
+//HEADER-NOTICIAS FIN<<<<<<<<<<<<
+
+//FOOTER-NOTICIAS<<<<<<<<<<<<
+.footer-noticias{
+    background-color: $color6;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    h6{
+        color: $colorWhite;
+    }
+}
+//FOOTER-NOTICIAS FIN<<<<<<<<<<<<
+
+//GLOBAL<<<<<<<<<<<<
+
+.padU{
+    @include padtop();
+}
+
+.padD{
+    @include padbot();
+}
+
+h5{
+    color: $Dcolor3;
+}
+
+h6{
+    color: $color2;
+}
+
+.BGCg{
+    background-color: $color4;
+}
+
+.noticias{
+    p{
+        color: $color8;
+    }
+    p1{
+        color: $color9;
+    }
+    h5{
+        color: $color6;
+    }
+    h6{
+        color: $Dcolor3;
+    }
+}
+
+//GLOBAL FIN<<<<<<<<<<<<

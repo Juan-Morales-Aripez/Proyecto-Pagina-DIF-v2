@@ -1,0 +1,186 @@
+@use './bootstrap';
+
+//COLORES
+$color1: #621031;
+$color2: #9F2241;
+$color3: #D6C19C;
+$color4: #DDDDDD;
+$color5: #9A9A9A;
+$color6: #1A1A1A;
+$color7: #F6F6F6;
+$color8: #7F9097;
+$color9: #BBB5B5;
+$colorWhite: #ffffff;
+
+//COLORES-DEGRADADO
+$Dcolor1:#21409A;
+$Dcolor2:#D958A0;
+$Dcolor3:#E95A5C;
+$Dcolor4:#F7943E;
+$Dcolor5:#FFDA0D;
+
+@mixin padtop {
+    padding-top: 50px;
+}
+
+@mixin padbot {
+    padding-bottom: 50px;
+}
+
+
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: $color7;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+//HEADER<<<<<<<<<<<<
+.header{
+    color: $color1;
+    ul{
+        list-style: none;
+        display: flex;
+        li{
+            margin: auto;
+            a{
+                text-decoration: none;
+                color: $color1;
+                &:hover{
+                    color: $color1;
+                    background-color: $color4;
+                }
+            }
+        }
+    }
+    @include padbot();
+}
+//HEADER FIN<<<<<<<<<<<<
+
+//FOOTER<<<<<<<<<<<<
+.footer{
+    background-image: url(src/SVG´s/FondoFooter.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 40px;
+    h6{
+        color: $colorWhite;
+    }
+    ul{
+        list-style: none;
+        padding-bottom: 10px;
+        li{
+            padding-bottom: 10px;
+            color: $color7;
+            margin: auto;
+            a{
+                text-decoration: none;
+                color: $color7;
+                &:hover{
+                    color: $color7;
+                }
+            }
+        }
+    }
+    hr{
+        border-color: $color6;
+        border-width: 5px;
+    }
+    .BGCw{
+        background-color: $colorWhite;
+    }
+}
+//FOOTER FIN<<<<<<<<<<<<
+
+//GLOBAL<<<<<<<<<<<<
+
+.padU{
+    @include padtop();
+}
+
+.padD{
+    @include padbot();
+}
+
+h2{
+    color: $color1;
+    font-weight: bold;
+}
+
+h5{
+    color: $Dcolor3;
+}
+
+h4{
+    color: $color2;
+}
+
+h6{
+    color: $color2;
+}
+
+h7{
+    font-weight: bold;
+}
+
+.notice-bottom{
+    background-color: $Dcolor4;
+    width: fit-content;
+    padding: 5px 30px 1px 30px;
+    text-align: center;
+    h6{
+        color: $colorWhite;
+    }
+}
+
+.lista_info{
+    a{
+        color: $Dcolor4;
+    }
+    ul{
+        list-style: none;
+        display: flex;
+    }
+}
+
+.BGCw{
+    background-color: $colorWhite;
+}
+
+.fracc{
+    p{
+        color: $color2;
+        margin: 0 100px 0 20px;
+    }
+    div{
+        &:hover{
+            background-color: $Dcolor4;
+            p{
+                color: $colorWhite;
+            }
+        }
+    }
+
+}
+.fracc_sel{
+    .num{
+        text-align: center;
+        background-color: $Dcolor4;
+        h4{
+            color: $colorWhite;
+        }
+    }
+    
+    h5{
+        color: $color2;
+    }
+    h6{
+        color: $color6;
+        font-weight: bold;
+    }
+}
+
+//GLOBAL FIN<<<<<<<<<<<<
