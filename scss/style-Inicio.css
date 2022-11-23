@@ -10942,6 +10942,18 @@ body {
   margin: 0;
 }
 
+@media (max-width: 1200px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+}
+@media (max-width: 900px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+}
+@media (max-width: 600px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+}
+@media (max-width: 400px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+}
 .header {
   color: #621031;
   padding-bottom: 50px;
@@ -11027,26 +11039,51 @@ h6 {
 .enlace1 {
   background-color: #E95A5C;
   color: #ffffff;
+  padding: 15px;
+}
+.enlace1 ul {
+  list-style: none;
+  display: flex;
 }
 
 .enlace2 {
   background-color: #21409A;
   color: #ffffff;
+  padding: 15px;
+}
+.enlace2 ul {
+  list-style: none;
+  display: flex;
 }
 
 .enlace3 {
   background-color: #F7943E;
   color: #ffffff;
+  padding: 15px;
+}
+.enlace3 ul {
+  list-style: none;
+  display: flex;
 }
 
 .enlace4 {
   background-color: #D958A0;
   color: #ffffff;
+  padding: 15px;
+}
+.enlace4 ul {
+  list-style: none;
+  display: flex;
 }
 
 .enlace5 {
   background-color: #FFDA0D;
   color: #ffffff;
+  padding: 15px;
+}
+.enlace5 ul {
+  list-style: none;
+  display: flex;
 }
 
 .BGCw {

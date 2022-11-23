@@ -36,6 +36,27 @@ body{
     margin: 0;
 }
 
+@media (max-width: 1200px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  
+
+}
+@media (max-width: 900px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  
+
+}
+@media (max-width: 600px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  
+
+}
+@media (max-width: 400px) {
+    /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  
+
+}
+
 
 
 //HEADER<<<<<<<<<<<<
@@ -127,22 +148,47 @@ h6{
 .enlace1{
     background-color: $Dcolor3;
     color: $colorWhite;
+    padding: 15px;
+    ul{
+        list-style: none;
+        display: flex;
+    }
 }
 .enlace2{
     background-color: $Dcolor1;
     color: $colorWhite;
+    padding: 15px;
+    ul{
+        list-style: none;
+        display: flex;
+    }
 }
 .enlace3{
     background-color: $Dcolor4;
     color: $colorWhite;
+    padding: 15px;
+    ul{
+        list-style: none;
+        display: flex;
+    }
 }
 .enlace4{
     background-color: $Dcolor2;
     color: $colorWhite;
+    padding: 15px;
+    ul{
+        list-style: none;
+        display: flex;
+    }
 }
 .enlace5{
     background-color: $Dcolor5;
     color: $colorWhite;
+    padding: 15px;
+    ul{
+        list-style: none;
+        display: flex;
+    }
 }
 
 .BGCw{
